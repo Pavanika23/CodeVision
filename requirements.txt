@@ -1,0 +1,7 @@
+gunicorn
+pywebio
+flask
+pandas
+numpy
+gevent-websocket   # only if you plan to use the websocket worker
+gevent              # recommended if using gevent-websocket
